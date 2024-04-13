@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox {
+    margin: 4% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: blue;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+
+.tittlecolor {
+    color: seagreen;
+}
+
+.pcolor {
+    color:red;
+}
+
+.flexbox__textcontent {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.flexbox__textcontent__h1 {
+    font-size: 36px;
+    font-family: "Michroma", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.flexbox__textcontent__p {
+    font-size: 24px;
+}
+.flexbox__links {
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    background-color: seagreen;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 10px 0px;
+    text-decoration:  none;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+}
